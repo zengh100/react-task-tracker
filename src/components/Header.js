@@ -8,10 +8,10 @@ const Header = ({title}) => {
         </header>
     )
 }
-Header.defaultProps = {
-    title: 'task1 tracker',
-}
+// Header.defaultProps = {
+//     title: 'task1 tracker',
+// }
 Header.propType = {
-    title: PropTypes.string
+    title: PropTypes.string.isRequired
 }
 export default Header
